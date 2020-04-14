@@ -10,7 +10,7 @@ def assign_rooms(attendees)
   room_number = 1;
   index = 0;
   room_assignments = [];
-  until index == attendees.length do
+  until index == attendees.length
     room_assignments << "Hello, #{attendees[index]}! You'll be assigned to room #{room_number}!"
     index += 1
     room_number += 1
